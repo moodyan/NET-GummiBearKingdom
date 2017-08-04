@@ -10,4 +10,8 @@
 @Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)
 @Html.DisplayNameFor(model => model.Cost): @Html.DisplayFor(model => model.Cost)
 @Html.DisplayNameFor(model => model.Origin): @Html.DisplayFor(model => model.Origin)
+<hr />
+<button>@Html.ActionLink("Delete", "Delete", new { id = Model.ProductId })</button>
+<button>@Html.ActionLink("Edit", "Edit", new { id = Model.ProductId })</button>
+<br />
 <p>@Html.ActionLink("Back to Products", "Index")</p>

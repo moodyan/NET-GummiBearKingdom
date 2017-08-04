@@ -3,14 +3,21 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 @model IEnumerable<GummiBearKingdom.Models.Product>
+<div class="container">
+    <h2>Products</h2>
+    <main class="cards">
+        @foreach (var listProduct in Model)
+        {
+            <article class="card">
+                <img src=@Html.DisplayFor(image => listProduct.Image) alt="photo no worky" />
+                <div class="text">
+                    <h3>@Html.DisplayFor(name => listProduct.Name)</h3>
+                    <p>$@Html.DisplayFor(text => listProduct.Cost)</p>
+                    <button>@Html.ActionLink("Product Details", "Details", new { id = listProduct.ProductId })</button>
+                </div>
+            </article>
+        }
+    </main>
 
-<h2>Products</h2>
-<ul>
-    @foreach (var listProduct in Model)
-    {
-        <li>
-            @Html.DisplayFor(modelProduct => listProduct.Name) | @Html.ActionLink("Details", "Details", new { id = listProduct.ProductId }) | @Html.ActionLink("Edit", "Edit", new { id = listProduct.ProductId }) | @Html.ActionLink("Delete", "Delete", new { id = listProduct.ProductId })
-        </li>
-    }
-</ul>
-<p>@Html.ActionLink("Add new product", "Create")</p>
+    <button>@Html.ActionLink("Add new product", "Create")</button>
+</div>

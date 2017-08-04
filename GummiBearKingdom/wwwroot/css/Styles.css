@@ -1,2 +1,127 @@
 ﻿body {
+    background-color: lightgray;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.jumbotron {
+    background-image: url("../img/table_gummies.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 75vh;
+    padding-top: 0px;
+}
+
+.navbar-default {
+    background-color: white;
+    border: none;
+    height: 25vh;
+    display: flex;
+
+    margin-bottom: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.navbar-nav a {
+    margin: 30px;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+img {
+    max-height: 300px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    flex: 0 0 500px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.3);
+    background-color: white;
+    padding-top: 30px;
+}
+
+.card img {
+    max-width: 100%;
+}
+
+.card .text {
+    padding: 0 20px 20px;
+}
+
+.card button {
+    background-color: tomato;
+    border: 0;
+    padding: 10px;
+    width: 100%;
+}
+
+.card button a {
+    color: white;
+}
+
+.card button:hover, .card button:hover a {
+    background-color: #ffbf47;
+    color: white;
+}
+
+button {
+    background-color: #2E8B57;
+    border: 0;
+    padding: 10px;
+    width: 40%;
+    align-self: center;
+}
+
+button a {
+    color: white;
+}
+
+button:hover, button:hover a {
+    background-color: #dfc12a;
+    color: white;
+}
+
+a {
+    color: tomato;
+}
+
+nav a {
+    color: black;
 }
