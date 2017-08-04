@@ -9,16 +9,15 @@
     background-size: cover;
     background-position: center;
     text-align: center;
-    height: 75vh;
+    height: 80vh;
     padding-top: 0px;
 }
 
 .navbar-default {
     background-color: white;
     border: none;
-    height: 25vh;
+    height: 20vh;
     display: flex;
-
     margin-bottom: 0px;
     align-items: center;
     justify-content: center;
@@ -36,25 +35,40 @@
     display: flex;
     flex-direction: row;
     width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#brand, #navlink {
+    height: 30px;
+}
+
+#navlink:hover {
+    background-image: url("../img/gummies2.jpg");
+    background-size: contain;
+    
+}
+
+    #navlink a:hover {
+        color: black;
+        font-weight: bold;
+    }
+
+#brand a {
+    color: #ffbf47;
+    font-size: 25px;
+}
+
+#brand a:hover {
+    color: black;
+    text-decoration: none;
 }
 
 .navbar-nav a {
-    margin: 30px;
-}
-
-.middle {
-    display: flex;
+    margin: 120px;
     justify-content: center;
-}
-
-.right {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.left {
-    display: flex;
-    justify-content: flex-start;
+    color: darkgray;
 }
 
 img {

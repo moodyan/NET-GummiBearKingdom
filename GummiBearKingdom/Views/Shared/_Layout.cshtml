@@ -11,17 +11,12 @@
     <nav class="navbar navbar-default" role="navigation">
         <div class="container" id="navbar">
             <div class="navbar-nav">
-                <div class="left">@Html.ActionLink("PRODUCTS", "Index", "Products")</div>
-                <div class="middle">@Html.ActionLink("GUMMI BEAR KINGDOM", "Index", "Home")</div>
-                <div class="right">@Html.ActionLink("CONTACT", "Index", "Home")</div>
-                
-                
-                
-            </div>
-  
+                <div id="navlink">@Html.ActionLink("PRODUCTS", "Index", "Products")</div>
+                <div id="brand">@Html.ActionLink("GUMMI BEAR KINGDOM", "Index", "Home")</div>
+                <div id="navlink">@Html.ActionLink("CONTACT", "Index", "Home")</div>
+</div>
+        </div>
     </nav>
-
-    
     <div>
         @RenderBody()
     </div>
