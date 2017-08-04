@@ -18,6 +18,8 @@ _An app that manages the products of Gummi Bear Kingdom._
 | The program allows users to edit products in the database.  | /Products/Edit  | --  |
 | The program allows users to delete products from the database.  | /Products/Delete  | --  |
 
+_This website's style loosely mimics the styling of [Emporium Pies](http://emporiumpies.com/)._
+
 ## Setup/Installation Requirements
 
 **Requirements**
@@ -35,12 +37,20 @@ Open the project in Visual Studio.
 2. Enter "cmd" in the address bar and press Enter.
 3. Enter the following command in the command window:
   - dotnet ef database update
+35. FOR NOW: Open gummi_scripts.sql in SSMS and execute (sample data). (Will be adding this into the model so that sample data will be created with migrations.)
 4. Back in VS, click IIS Express at the top of the window. Project should open in a new window in your default browser.
 
 
 ## Known Bugs
 
 _No known bugs._
+
+**TO DO**
+- Add sample data to model
+- Fix height of navbar links so I can use a better background image
+- Style Details page
+- Add html/styling to contact page
+- STRETCH GOALS: add animations and toggling pictures.
 
 ## Support and contact details
 
