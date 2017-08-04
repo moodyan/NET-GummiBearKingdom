@@ -17,8 +17,8 @@ namespace GummiBearKingdom.Migrations
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     Cost = table.Column<decimal>(nullable: true),
                     Image = table.Column<string>(nullable: true),
-                    OriginCountry = table.Column<string>(nullable: true),
-                    ProductName = table.Column<string>(nullable: true)
+                    Origin = table.Column<string>(nullable: true),
+                    Name = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {

@@ -10,9 +10,9 @@ namespace GummiBearKingdom.Models
     {
         [Key]
         public int ProductId { get; set; }
-        public string ProductName { get; set; }
+        public string Name { get; set; }
         public decimal Cost { get; set; }
-        public string OriginCountry { get; set; }
+        public string Origin { get; set; }
         public string Image { get; set; }
     }
 }
