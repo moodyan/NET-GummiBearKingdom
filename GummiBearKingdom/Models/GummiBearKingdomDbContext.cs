@@ -14,6 +14,7 @@ namespace GummiBearKingdom.Models
         }
 
         public DbSet<Product> Products { get; set; }
+        public DbSet<Blog> Blogs { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {

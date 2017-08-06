@@ -12,6 +12,7 @@
 .render-body {
     margin: 0 auto;
     padding-top: 64px;
+    
 }
 
 body {
@@ -25,20 +26,32 @@ body {
 
 .jumbotron {
     background-image: url("../img/table_gummies.jpg");
-    background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
-    text-align: center;
+    background-size: cover;
     height: 80vh;
     padding-top: 0px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 200px;
+    
+}
+
+.jumbotron h2 {
+    color: white;
+    font-size: 80px;
+    font-weight: bolder;
+    text-shadow: 5px 5px 5px black;
 }
 
 .footer {
+    display: flex;
     position: absolute;
     right: 0;
     bottom: 0;
     left: 0;
     background-color: #efefef;
-    padding-top: 20px;
+    padding: 20px;
     height: 80px;
     width: 100%;
     border: solid transparent;
@@ -64,6 +77,7 @@ body {
     flex-wrap: wrap;
     align-items: center;
     width: 100%;
+    justify-content: center;
 }
 
 .navbar-nav {
@@ -72,26 +86,39 @@ body {
     width: 100%;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: 100px;
+    
 }
 
 #brand, #navlink {
-    height: 30px;
+    height: 90px;
+    padding-top: 35px;
 }
 
 #navlink:hover {
-    background-image: url("../img/gummies2.jpg");
-    background-size: cover;
+    background-image: url("../img/color6.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #navlink a:hover {
-    color: black;
+    color: white;
     font-weight: bold;
+    text-decoration: none;
+    text-shadow: 7px 3px 3px black;
 }
 
 #brand a {
     color: #ffbf47;
     font-size: 20px;
+    font-weight: bold;
+    height: 90px;
+    text-shadow: 1.5px .5px .5px lightgrey;
+}
+
+#navlink a {
+    height: 90px;
 }
 
 #brand a:hover {
@@ -131,22 +158,6 @@ img {
 
 .card .text {
     padding: 0 20px 20px;
-}
-
-.card button {
-    background-color: tomato;
-    border: 0;
-    padding: 10px;
-    width: 100%;
-}
-
-.card button a {
-    color: white;
-}
-
-.card button:hover, .card button:hover a {
-    background-color: #ffbf47;
-    color: white;
 }
 
 button {
@@ -196,4 +207,37 @@ input[type="text"]:focus {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
 }
+
+.flex-div {
+    display: flex;
+    height: 60vh;
+}
+
+.bigitem {
+    /* This will be twice as big as the small item. */
+    -webkit-flex: 2 0 0;
+    flex: 2 0 0;
+    height: 60vh;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: left;
+}
+
+.smallitem {
+    -webkit-flex: 1 0 0;
+    flex: 1 0 0;
+    height: 60vh;
+}
+
+.bigfoot {
+    -webkit-flex: 2 0 0;
+    flex: 2 0 0;
+}
+
+.littlefoot {
+    -webkit-flex: 1 0 0;
+    flex: 1 0 0;
+}
+
+
 
