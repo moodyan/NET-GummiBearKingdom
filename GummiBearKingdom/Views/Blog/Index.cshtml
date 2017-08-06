@@ -3,13 +3,18 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 @model IEnumerable<GummiBearKingdom.Models.Blog>
+
+<br /><br />
 <h2>OUR BLOG</h2>
-<main class="cards">
+<main class="blog">
+    <button id="postbutton">@Html.ActionLink("Add new post", "Create")</button>
     @foreach (var listPost in Model)
     {
-        <article class="card">
-            <img src=@Html.DisplayFor(image => listPost.Image) alt="photo no worky" />
-            <div class="text">
+        <article class="post">
+            <div id="postimage">
+                <img src=@Html.DisplayFor(image => listPost.Image) alt="photo no worky" />
+            </div>
+            <div id="posttext">
                 <h3>@Html.DisplayFor(name => listPost.Title)</h3>
                 <p>BY: @Html.DisplayFor(text => listPost.Author)</p>
                 <hr />
@@ -18,5 +23,4 @@
         </article>
     }
 </main>
-<br /><br />
-<button>@Html.ActionLink("Add new post", "Create")</button>
+

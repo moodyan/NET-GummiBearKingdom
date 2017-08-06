@@ -47,7 +47,7 @@ _No known bugs._
 
 **TO DO**
 - Add to footer
-- Fix blog page and flavor page styling
+- Fix blog page styling
 - Add html/styling to press page
 
 ## Support and contact details
