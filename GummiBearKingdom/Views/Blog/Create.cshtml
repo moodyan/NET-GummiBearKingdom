@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "GBK - Add New Post";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model GummiBearKingdom.Models.Blog
+<h2>Add a New Post</h2>
+<hr />
+@using (Html.BeginForm())
+{
+    <p>
+        @Html.LabelFor(model => model.Title):
+    @Html.TextBoxFor(model => model.Title)
+</p><br />
+    <p>
+        @Html.LabelFor(model => model.Author):
+    @Html.TextBoxFor(model => model.Author)
+</p><br />
+    <p>
+        @Html.LabelFor(model => model.Body):
+    @Html.TextBoxFor(model => model.Body)
+</p><br />
+    <p>
+        @Html.LabelFor(model => model.Image):
+    @Html.TextBoxFor(model => model.Image)
+</p><br />
+    <button class="button2" type="submit">Add new post</button>
+}

@@ -25,5 +25,10 @@ namespace GummiBearKingdom.Controllers
         {
             return View();
         }
+
+        public IActionResult Press()
+        {
+            return View();
+        }
     }
 }

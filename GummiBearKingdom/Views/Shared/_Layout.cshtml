@@ -15,7 +15,7 @@
                 <div id="navlink">@Html.ActionLink("FLAVORS", "Flavors", "Home")</div>
                 <div id="navlink">@Html.ActionLink("ABOUT", "About", "Home")</div>
                 <div id="brand">@Html.ActionLink("GUMMI BEAR KINGDOM", "Index", "Home")</div>
-                <div id="navlink">@Html.ActionLink("BLOG", "Blog", "Home")</div>
+                <div id="navlink">@Html.ActionLink("BLOG", "Index", "Blog")</div>
                 <div id="navlink">@Html.ActionLink("PRODUCTS", "Index", "Products")</div>
             </div>
         </div>
@@ -24,7 +24,8 @@
         @RenderBody()
     </div>
     <div class="footer">
-        <div>Footer</div>
+        <div class="bigfoot">Footer</div>
+        <div class="littlefoot">@Html.ActionLink("PRESS", "Press", "Home")</div>
     </div>
 </body>
 </html>

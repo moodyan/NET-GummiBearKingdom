@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "GBK - Blog Post";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model GummiBearKingdom.Models.Blog
+<h2>@Html.DisplayFor(model => model.Title)</h2>
+<hr />
+<img src=@Html.DisplayFor(model => model.Image) alt="photo done broke">
+<br />
+<br />
+@Html.DisplayNameFor(model => model.Author): @Html.DisplayFor(model => model.Author)<br />
+<p>@Html.DisplayFor(model => model.Body)</p> 
+<hr />
+<button>@Html.ActionLink("Edit", "Edit", new { id = Model.BlogId })</button>
+<button>@Html.ActionLink("Delete", "Delete", new { id = Model.BlogId })</button>
+<br /><br />
+<p>@Html.ActionLink("Back to all posts", "Index")</p>

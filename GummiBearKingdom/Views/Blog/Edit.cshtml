@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "GBK - Edit Post";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model GummiBearKingdom.Models.Blog
+<h2>Edit</h2>
+<hr />
+<h4>Edit this product: @Html.DisplayFor(model => model.Title)</h4>
+
+@using (Html.BeginForm())
+{
+    @Html.HiddenFor(model => model.BlogId)
+
+    @Html.LabelFor(model => model.Title)<br />
+    @Html.EditorFor(model => model.Title)<br />
+
+    @Html.LabelFor(model => model.Author)<br />
+    @Html.EditorFor(model => model.Author)<br />
+
+    @Html.LabelFor(model => model.Body)<br />
+    @Html.EditorFor(model => model.Body)<br />
+
+    @Html.LabelFor(model => model.Image)<br />
+    @Html.EditorFor(model => model.Image)<br />
+    <br /><br />
+    <button class="button2" type="submit">Save</button>
+}
+<br />
+<p>@Html.ActionLink("Back to products", "Index")</p>

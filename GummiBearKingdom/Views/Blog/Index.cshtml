@@ -2,6 +2,7 @@
     ViewData["Title"] = "GBK Blog";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+@model IEnumerable<GummiBearKingdom.Models.Blog>
 <h2>OUR BLOG</h2>
 <main class="cards">
     @foreach (var listPost in Model)
@@ -10,10 +11,12 @@
             <img src=@Html.DisplayFor(image => listPost.Image) alt="photo no worky" />
             <div class="text">
                 <h3>@Html.DisplayFor(name => listPost.Title)</h3>
-                <p>$@Html.DisplayFor(text => listPost.Author)</p>
+                <p>BY: @Html.DisplayFor(text => listPost.Author)</p>
                 <hr />
                 <button>@Html.ActionLink("Post Details", "Details", new { id = listPost.BlogId })</button>
             </div>
         </article>
     }
 </main>
+<br /><br />
+<button>@Html.ActionLink("Add new post", "Create")</button>
