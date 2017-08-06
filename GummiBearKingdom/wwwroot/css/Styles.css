@@ -159,6 +159,10 @@ img {
     max-height: 270px;
 }
 
+.post button {
+    width: 100%;
+}
+
 #postimage {
     -webkit-flex: 2 0 0;
     flex: 2 0 0;
@@ -236,8 +240,8 @@ button:hover a {
     background-color: #9ACD32;
     border: 0;
     padding: 10px;
-    width: 20%;
-    align-self: flex-end;
+    width: 15%;
+    align-self: center;
     margin: 15px;
 }
 
