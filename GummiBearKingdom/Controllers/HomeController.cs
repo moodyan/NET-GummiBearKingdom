@@ -16,7 +16,17 @@ namespace GummiBearKingdom.Controllers
             return View();
         }
 
-        public IActionResult Contact()
+        public IActionResult Flavors()
+        {
+            return View();
+        }
+
+        public IActionResult About()
+        {
+            return View();
+        }
+
+        public IActionResult Blog()
         {
             return View();
         }

@@ -11,18 +11,18 @@
 {
     @Html.HiddenFor(model => model.ProductId)
 
-    @Html.LabelFor(model => model.Name)
-    @Html.EditorFor(model => model.Name)
+    @Html.LabelFor(model => model.Name)<br />
+    @Html.EditorFor(model => model.Name)<br />
 
-    @Html.LabelFor(model => model.Cost)
-    @Html.EditorFor(model => model.Cost)
+    @Html.LabelFor(model => model.Cost)<br />
+    @Html.EditorFor(model => model.Cost)<br />
 
-    @Html.LabelFor(model => model.Origin)
-    @Html.EditorFor(model => model.Origin)
+    @Html.LabelFor(model => model.Origin)<br />
+    @Html.EditorFor(model => model.Origin)<br />
 
-    @Html.LabelFor(model => model.Image)
-    @Html.EditorFor(model => model.Image)
-
-    <input type="submit" value="Save" />
+    @Html.LabelFor(model => model.Image)<br />
+    @Html.EditorFor(model => model.Image)<br />
+    <br /><br />
+    <button class="button2" type="submit">Save</button>
 }
 <p>@Html.ActionLink("Back to list", "Index")</p>

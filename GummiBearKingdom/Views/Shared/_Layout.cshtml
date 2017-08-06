@@ -3,6 +3,7 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="~/css/bootstrap.css" />
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet"> 
     <link rel="stylesheet" type="text/css" href="~/css/Styles.css" />
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
@@ -11,14 +12,19 @@
     <nav class="navbar navbar-default" role="navigation">
         <div class="container" id="navbar">
             <div class="navbar-nav">
-                <div id="navlink">@Html.ActionLink("PRODUCTS", "Index", "Products")</div>
+                <div id="navlink">@Html.ActionLink("FLAVORS", "Flavors", "Home")</div>
+                <div id="navlink">@Html.ActionLink("ABOUT", "About", "Home")</div>
                 <div id="brand">@Html.ActionLink("GUMMI BEAR KINGDOM", "Index", "Home")</div>
-                <div id="navlink">@Html.ActionLink("CONTACT", "Contact", "Home")</div>
-</div>
+                <div id="navlink">@Html.ActionLink("BLOG", "Blog", "Home")</div>
+                <div id="navlink">@Html.ActionLink("PRODUCTS", "Index", "Products")</div>
+            </div>
         </div>
     </nav>
-    <div>
+    <div class="render-body">
         @RenderBody()
+    </div>
+    <div class="footer">
+        <div>Footer</div>
     </div>
 </body>
 </html>

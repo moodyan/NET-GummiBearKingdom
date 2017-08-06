@@ -3,19 +3,17 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 @model GummiBearKingdom.Models.Product
-<h2>Create</h2>
+<h2>Add a New Product</h2>
 <hr />
-<h4>Add a new product</h4>
 @using (Html.BeginForm())
 {
-    @Html.LabelFor(model => model.Name)
-    @Html.TextBoxFor(model => model.Name)
-    @Html.LabelFor(model => model.Cost)
-    @Html.TextBoxFor(model => model.Cost)
-    @Html.LabelFor(model => model.Origin)
-    @Html.TextBoxFor(model => model.Origin)
-    @Html.LabelFor(model => model.Image)
-    @Html.TextBoxFor(model => model.Image)
-    <input type="submit" value="Add new product" />
+    <p>@Html.LabelFor(model => model.Name): 
+    @Html.TextBoxFor(model => model.Name)</p><br />
+    <p>@Html.LabelFor(model => model.Cost):
+    @Html.TextBoxFor(model => model.Cost)</p><br />
+    <p>@Html.LabelFor(model => model.Origin): 
+    @Html.TextBoxFor(model => model.Origin)</p /><br />
+    <p>@Html.LabelFor(model => model.Image): 
+    @Html.TextBoxFor(model => model.Image)</p /><br />
+    <button class="button2" type="submit">Add new product</button>
 }
-<p>@Html.ActionLink("Back to products", "Index")</p>

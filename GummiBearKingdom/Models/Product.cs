@@ -15,4 +15,6 @@ namespace GummiBearKingdom.Models
         public string Origin { get; set; }
         public string Image { get; set; }
     }
+
+    
 }

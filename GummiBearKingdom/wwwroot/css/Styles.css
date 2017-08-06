@@ -1,7 +1,26 @@
-﻿body {
-    background-color: lightgray;
+﻿html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.render-body {
+    margin: 0 auto;
+    padding-top: 64px;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding-bottom: 10rem;
+    min-height: 100%;
+    font-family: 'Julius Sans One', sans-serif;
     text-align: center;
-    padding-bottom: 30px;
 }
 
 .jumbotron {
@@ -13,9 +32,25 @@
     padding-top: 0px;
 }
 
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #efefef;
+    padding-top: 20px;
+    height: 80px;
+    width: 100%;
+    border: solid transparent;
+    border-width: 15px 0 0;
+    border-image: 40 repeat url("https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0061/4072/rrrrainbow3.ai_drop_preview.png");
+}
+
 .navbar-default {
     background-color: white;
-    border: none;
+    border: solid transparent;
+    border-width: 0px 0 15px;
+    border-image: 40 repeat url("https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0061/4072/rrrrainbow3.ai_drop_preview.png");
     height: 20vh;
     display: flex;
     margin-bottom: 0px;
@@ -46,18 +81,17 @@
 
 #navlink:hover {
     background-image: url("../img/gummies2.jpg");
-    background-size: contain;
-    
+    background-size: cover;
 }
 
-    #navlink a:hover {
-        color: black;
-        font-weight: bold;
-    }
+#navlink a:hover {
+    color: black;
+    font-weight: bold;
+}
 
 #brand a {
     color: #ffbf47;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 #brand a:hover {
@@ -66,7 +100,7 @@
 }
 
 .navbar-nav a {
-    margin: 120px;
+    margin: 60px;
     justify-content: center;
     color: darkgray;
 }
@@ -139,3 +173,27 @@ a {
 nav a {
     color: black;
 }
+
+input[type="text"] {
+    padding: 10px;
+    border: solid 1px #dcdcdc;
+    transition: box-shadow 0.3s, border 0.3s;
+    width: 25%;
+}
+
+input[type="text"]:focus {
+    border: solid 1px #707070;
+    box-shadow: 0 0 5px 1px #969696;
+}
+
+.gummy {
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+}
+
+.gummy:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
