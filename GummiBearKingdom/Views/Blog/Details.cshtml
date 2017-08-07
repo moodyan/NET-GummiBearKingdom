@@ -9,7 +9,7 @@
 <br />
 <br />
 @Html.DisplayNameFor(model => model.Author): @Html.DisplayFor(model => model.Author)<br />
-<p>@Html.DisplayFor(model => model.Body)</p> 
+<p id="blogbody">@Html.DisplayFor(model => model.Body)</p> 
 <hr />
 <button>@Html.ActionLink("Edit", "Edit", new { id = Model.BlogId })</button>
 <button>@Html.ActionLink("Delete", "Delete", new { id = Model.BlogId })</button>

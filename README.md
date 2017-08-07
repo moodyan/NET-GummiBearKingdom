@@ -45,11 +45,6 @@ Open the project in Visual Studio.
 
 _No known bugs._
 
-**TO DO**
-- Add to footer
-- Fix blog page styling
-- Add html/styling to press page
-
 ## Support and contact details
 
 _If you run into any issues or have questions, ideas or concerns, please contact Alyssa Moody at alyssanicholemoody@gmail.com_
