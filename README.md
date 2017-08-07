@@ -40,6 +40,12 @@ Open the project in Visual Studio.
 4. Open gummi_scripts.sql in SSMS and execute (this will add sample data).
 5. Back in VS, click IIS Express at the top of the window. Project should open in a new window in your default browser.
 
+## Screenshots
+![alt text](https://user-images.githubusercontent.com/9857432/29033296-6ea27ab2-7b49-11e7-9909-3a93c20ac87d.png)
+![alt text](https://user-images.githubusercontent.com/9857432/29033295-6e930622-7b49-11e7-89cc-eabc1a28e46d.png)
+![alt text](https://user-images.githubusercontent.com/9857432/29033302-727deee6-7b49-11e7-8ab4-ccc808f15f23.png)
+![alt text](https://user-images.githubusercontent.com/9857432/29033307-73e5a0f8-7b49-11e7-973f-1050c53e84af.png)
+![alt text](https://user-images.githubusercontent.com/9857432/29033303-72817b74-7b49-11e7-8799-8e9b98ef013d.png)
 
 ## Known Bugs
 
