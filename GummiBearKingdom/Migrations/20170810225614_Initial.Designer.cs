@@ -8,8 +8,8 @@ using GummiBearKingdom.Models;
 namespace GummiBearKingdom.Migrations
 {
     [DbContext(typeof(GummiBearKingdomDbContext))]
-    [Migration("20170806083143_CreateBlogModel")]
-    partial class CreateBlogModel
+    [Migration("20170810225614_Initial")]
+    partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

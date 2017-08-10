@@ -10232,10 +10232,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alyssamoody\\Desktop\\GummiBearKingdom\\GummiBearKingdom\\GummiBearKingdom.csproj",
+      "projectUniqueName": "C:\\Users\\alyssamoody\\Desktop\\NET-GummiBearKingdom\\GummiBearKingdom\\GummiBearKingdom.csproj",
       "projectName": "GummiBearKingdom",
-      "projectPath": "C:\\Users\\alyssamoody\\Desktop\\GummiBearKingdom\\GummiBearKingdom\\GummiBearKingdom.csproj",
-      "outputPath": "C:\\Users\\alyssamoody\\Desktop\\GummiBearKingdom\\GummiBearKingdom\\obj\\",
+      "projectPath": "C:\\Users\\alyssamoody\\Desktop\\NET-GummiBearKingdom\\GummiBearKingdom\\GummiBearKingdom.csproj",
+      "outputPath": "C:\\Users\\alyssamoody\\Desktop\\NET-GummiBearKingdom\\GummiBearKingdom\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"

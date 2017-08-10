@@ -7,3 +7,12 @@ C:\Users\alyssamoody\Desktop\GummiBearKingdom\GummiBearKingdom\obj\Debug\netcore
 C:\Users\alyssamoody\Desktop\GummiBearKingdom\GummiBearKingdom\bin\Debug\netcoreapp1.1\GummiBearKingdom.pdb
 C:\Users\alyssamoody\Desktop\GummiBearKingdom\GummiBearKingdom\obj\Debug\netcoreapp1.1\GummiBearKingdom.dll
 C:\Users\alyssamoody\Desktop\GummiBearKingdom\GummiBearKingdom\obj\Debug\netcoreapp1.1\GummiBearKingdom.pdb
+C:\Users\alyssamoody\Desktop\NET-GummiBearKingdom\GummiBearKingdom\bin\Debug\netcoreapp1.1\GummiBearKingdom.deps.json
+C:\Users\alyssamoody\Desktop\NET-GummiBearKingdom\GummiBearKingdom\bin\Debug\netcoreapp1.1\GummiBearKingdom.runtimeconfig.json
+C:\Users\alyssamoody\Desktop\NET-GummiBearKingdom\GummiBearKingdom\bin\Debug\netcoreapp1.1\GummiBearKingdom.runtimeconfig.dev.json
+C:\Users\alyssamoody\Desktop\NET-GummiBearKingdom\GummiBearKingdom\bin\Debug\netcoreapp1.1\GummiBearKingdom.dll
+C:\Users\alyssamoody\Desktop\NET-GummiBearKingdom\GummiBearKingdom\bin\Debug\netcoreapp1.1\GummiBearKingdom.pdb
+C:\Users\alyssamoody\Desktop\NET-GummiBearKingdom\GummiBearKingdom\obj\Debug\netcoreapp1.1\GummiBearKingdom.csprojResolveAssemblyReference.cache
+C:\Users\alyssamoody\Desktop\NET-GummiBearKingdom\GummiBearKingdom\obj\Debug\netcoreapp1.1\GummiBearKingdom.AssemblyInfo.cs
+C:\Users\alyssamoody\Desktop\NET-GummiBearKingdom\GummiBearKingdom\obj\Debug\netcoreapp1.1\GummiBearKingdom.dll
+C:\Users\alyssamoody\Desktop\NET-GummiBearKingdom\GummiBearKingdom\obj\Debug\netcoreapp1.1\GummiBearKingdom.pdb
